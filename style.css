@@ -1,0 +1,249 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#back{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1522198734915-76c764a8454d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7892e6f709c6e46512bb4b08ce3d1a3c&auto=format&fit=crop&w=1050&q=80');
+    background-size: cover;
+    background-position: bottom;    
+    background-attachment: fixed;
+}
+
+#color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #4a69bd,#e74c3c);
+    opacity: 0.9;
+    background-attachment: fixed;
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    background-attachment: fixed;
+}
+
+#part1{
+    width: 22%;
+    height: 100%;
+    background-color: rgba(10, 61, 98,0.45);
+    color: rgb(10, 61, 98);  
+    padding: 50px 55px;
+}
+#f1{
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+#logo{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 50%;
+}
+#logo h2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#title{
+    font-family: 'Bitter', serif;
+    width: 140px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 22px;
+    color: white;
+    font-size: 20px;
+}
+#menu{
+    width: 150px;
+    height: 450px;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+#menu button{
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding-bottom: 35px;
+    background-color: transparent;
+    font-weight: 600;
+    border-width: 0;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+}
+#power{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    margin-top: 10px;
+    margin-left: 60px;
+    font-size: 13px;
+}
+#power span{
+    color: yellow;
+}
+
+
+
+
+#part2{
+    width: 78%;
+    height: 100%;    
+}
+
+#intro{
+    font-family: 'Bitter', serif;
+    margin-left: 10px;
+    color: white;
+    margin-top: 200px;
+    width: 375px;
+    height: 66px;
+    font-size: 30px;
+    border-bottom: 2px solid white;
+}
+#intro2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-left: 10px;
+    color: white;
+    width: 375px;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 3px;
+    padding: 4px 5px;
+}
+#intro2 h3{
+    padding-bottom: 3px;
+    letter-spacing: 0.5px;
+}
+
+
+#f2{
+    width: 100%;
+    height: 170px;
+    display: flex;
+}
+#more{
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-top: 60px;
+    margin-left: 40px;
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+
+
+#logo1{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    font-weight: bold;
+    margin-left: 370px;
+    border-radius: 50%;
+}
+#logo1 h2{
+    color: #e74c3c;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    opacity: 0.8;
+    font-size: 50px;
+    transform: translate(-50%,-50%);
+}
+
+#f3{
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+}
+
+#scroll{
+    font-family: 'IBM Plex Sans', sans-serif;
+    width: 100px;
+    height: 60px;
+    margin-left: 28%;
+    color: white;
+}
+
+#scrol{
+    width: 20px;
+    color: white;
+    height: 35px;
+    margin-bottom: 4px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-color: white;
+    font-size: 28px;
+    font-weight: bolder;
+    margin-left: 33%;
+}
+
+#info{
+    margin-left: 500px;
+    display: flex;
+    margin-top: 20px;
+    opacity: 0.75;
+}
+#fb{
+    width: 35px;
+    height: 35px;
+    background-image: url('fb.png');
+    background-size: cover;
+    background-color: transparent;
+    border-width: 0;
+}
+#twitter{
+    width: 35px;
+    height: 35px;
+    margin-left: 8px;
+    background-image: url('twitter.png');
+    background-size: cover;
+    background-color: transparent;
+    border-width: 0;
+}
+#linkedin{
+    width: 35px;
+    height: 35px;
+    margin-left: 8px;
+    background-image: url('http://www.mit-consulting.cz/wp-content/themes/mit/img/icon_linkedin.svg');
+    background-color: transparent;
+    background-size: cover;
+    border-width: 0;
+}
+#insta{
+    width: 35px;
+    height: 35px;
+    margin-left: 8px;
+    background-image: url('instagram.png');
+    background-color: transparent;
+    background-size: cover;
+    border-width: 0;
+}
+
+
+
+
+
+
+#Home{
+    width: 60%;
+    height: 100%;
+    justify-content: center;
+}
